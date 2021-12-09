@@ -1,0 +1,5 @@
+2021-12-09 13:04:50,563 WARN  [SoapUI] Missing folder [C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\ext] for external libraries
+2021-12-09 13:04:50,725 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\formation\soapui-settings.xml]
+2021-12-09 13:04:51,746 INFO  [PluginManager] 0 plugins loaded in 0 ms
+2021-12-09 13:04:51,746 INFO  [DefaultSoapUICore] All plugins loaded
+2021-12-09 13:04:52,163 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/Projet_SOAP_Workspace/SoapProject/src/test/resources/UPDATED_LIBREPLAN-RESOURCES-TEST-soapui-project.xml]
