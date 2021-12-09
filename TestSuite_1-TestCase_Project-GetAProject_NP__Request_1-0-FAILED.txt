@@ -1,0 +1,40 @@
+Status: FAILED
+Time Taken: 24
+Size: 0
+Timestamp: Thu Dec 09 14:50:01 CET 2021
+TestStep: GetAProject NP - Request 1
+
+----------------- Messages ------------------------------
+[Contains] null/empty response
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://localhost:8090
+Username: wsreader
+Method: GET
+Domain: http://localhost:8090
+StatusCode: 404
+URL: http://localhost:8090/libreplan/ws/rest/orderelements/ORDER0009
+Password: wsreader
+
+---------------- Request ---------------------------
+Authorization: [Basic d3NyZWFkZXI6d3NyZWFkZXI=]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [localhost:8090]
+Accept-Encoding: [gzip,deflate]
+
+GET http://localhost:8090/libreplan/ws/rest/orderelements/ORDER0009 HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Basic d3NyZWFkZXI6d3NyZWFkZXI=
+Host: localhost:8090
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Server: [Apache-Coyote/1.1]
+#status#: [HTTP/1.1 404 Introuvable]
+Content-Length: [0]
+Date: [Thu, 09 Dec 2021 13:50:01 GMT]
+Content-Type: [text/xml]

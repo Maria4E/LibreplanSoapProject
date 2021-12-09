@@ -1,0 +1,49 @@
+Status: FAILED
+Time Taken: 23
+Size: 105
+Timestamp: Thu Dec 09 14:50:01 CET 2021
+TestStep: Copy of GetAllProject - Request 1
+
+----------------- Messages ------------------------------
+[Contains] Missing token [<order calendar-name="Default" dependencies-constraints-have-priority="false" init-date="2021-12-08" name="Mon gros projet" code="ORDER0009">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children/>
+   </order>
+] in Response
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://localhost:8090
+Username: wsreader
+Method: GET
+Domain: http://localhost:8090
+StatusCode: 200
+URL: http://localhost:8090/libreplan/ws/rest/orderelements/
+Password: wsreader
+
+---------------- Request ---------------------------
+Authorization: [Basic d3NyZWFkZXI6d3NyZWFkZXI=]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [localhost:8090]
+Accept-Encoding: [gzip,deflate]
+
+GET http://localhost:8090/libreplan/ws/rest/orderelements/ HTTP/1.1
+Accept-Encoding: gzip,deflate
+Authorization: Basic d3NyZWFkZXI6d3NyZWFkZXI=
+Host: localhost:8090
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+
+---------------- Response --------------------------
+Server: [Apache-Coyote/1.1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [105]
+Date: [Thu, 09 Dec 2021 13:50:01 GMT]
+Content-Type: [application/xml]
+
+<order-list xmlns="http://rest.ws.libreplan.org"/>

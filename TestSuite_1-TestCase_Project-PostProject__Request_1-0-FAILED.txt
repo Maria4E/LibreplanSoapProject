@@ -1,0 +1,55 @@
+Status: FAILED
+Time Taken: 38
+Size: 130
+Timestamp: Thu Dec 09 14:07:41 CET 2021
+TestStep: PostProject - Request 1
+
+----------------- Messages ------------------------------
+[Not Contains] Response contains token [<instance-constraint-violations-list xmlns="http://rest.ws.libreplan.org"/>]
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: http://localhost:8090
+Username: wswriter
+Method: POST
+Domain: http://localhost:8090
+StatusCode: 200
+URL: http://localhost:8090/libreplan/ws/rest/orderelements/
+Password: wswriter
+
+---------------- Request ---------------------------
+Authorization: [Basic d3N3cml0ZXI6d3N3cml0ZXI=]
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.1.1 (java 1.5)]
+Host: [localhost:8090]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [346]
+Content-Type: [application/xml]
+
+POST http://localhost:8090/libreplan/ws/rest/orderelements/ HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Type: application/xml
+Authorization: Basic d3N3cml0ZXI6d3N3cml0ZXI=
+Content-Length: 346
+Host: localhost:8090
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
+
+<order-list xmlns="http://rest.ws.libreplan.org">
+   <order calendar-name="Default" dependencies-constraints-have-priority="false" init-date="2021-12-08" name="Mon gros projet" code="ORDER0009">
+      <labels/>
+      <material-assignments/>
+      <advance-measurements/>
+      <criterion-requirements/>
+      <children/>
+   </order>
+</order-list>
+
+---------------- Response --------------------------
+Server: [Apache-Coyote/1.1]
+#status#: [HTTP/1.1 200 OK]
+Content-Length: [130]
+Date: [Thu, 09 Dec 2021 13:07:41 GMT]
+Content-Type: [application/xml]
+
+<instance-constraint-violations-list xmlns="http://rest.ws.libreplan.org"/>
