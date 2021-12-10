@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: eql.SoapProject.LibreplanTest
+Test set: eql.SoapProject.LogicaldocTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.609 s - in eql.SoapProject.LibreplanTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.125 s - in eql.SoapProject.LogicaldocTest

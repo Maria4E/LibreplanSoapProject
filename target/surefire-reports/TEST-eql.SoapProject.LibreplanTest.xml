@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="eql.SoapProject.LibreplanTest" time="3.058" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="eql.SoapProject.LibreplanTest" time="3.609" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -8,7 +8,7 @@
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="sun.awt.enableExtraMouseButtons" value="true"/>
-    <property name="java.class.path" value="C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\target\test-classes;C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\target\classes;C:\Users\formation\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\formation\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Installation\SmartBear\SoapUI-5.4.0\bin\soapui-5.4.0.jar;C:\Users\formation\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\xbean-fixed-2.4.0.jar;C:\Users\formation\.m2\repository\net\sf\squirrel-sql\thirdparty-non-maven\com-fifesoft-rsyntaxtextarea\1.0.0\com-fifesoft-rsyntaxtextarea-1.0.0.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\commons-cli-1.2.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\commons-io-2.4.jar;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpclient\4.1.1\httpclient-4.1.1.jar;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpcore\4.1\httpcore-4.1.jar;C:\Users\formation\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\formation\.m2\repository\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\proxy-vole-20131209.jar;C:\Users\formation\.m2\repository\xalan\xalan\2.7.0\xalan-2.7.0.jar;C:\Users\formation\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\formation\.m2\repository\org\reflections\reflections\0.9.9-RC1\reflections-0.9.9-RC1.jar;C:\Users\formation\.m2\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;C:\Users\formation\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\formation\.m2\repository\org\javassist\javassist\3.16.1-GA\javassist-3.16.1-GA.jar;C:\Users\formation\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\formation\.m2\repository\org\codehaus\groovy\groovy-all\2.4.4\groovy-all-2.4.4.jar;C:\Users\formation\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\formation\.m2\repository\org\bouncycastle\bcprov-jdk16\1.45\bcprov-jdk16-1.45.jar;C:\Users\formation\.m2\repository\wsdl4j\wsdl4j\1.6.2\wsdl4j-1.6.2.jar;C:\Users\formation\.m2\repository\com\jgoodies\jgoodies-forms\1.6.0\jgoodies-forms-1.6.0.jar;C:\Users\formation\.m2\repository\com\jgoodies\jgoodies-common\1.4.0\jgoodies-common-1.4.0.jar;C:\Users\formation\.m2\repository\xmlunit\xmlunit\1.2\xmlunit-1.2.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-core\4.7.0\flex-messaging-core-4.7.0.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-common\4.7.0\flex-messaging-common-4.7.0.jar;C:\Installation\Java\jdk1.8.0_152\lib\tools.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\commons-collections-3.2.2.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\jms-1.1.jar;C:\Users\formation\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar;C:\Users\formation\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\formation\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\formation\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\formation\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\formation\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.14.1\log4j-slf4j-impl-2.14.1.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\analytics-core-5.4.0.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\out-app-analytics-provider-5.4.0.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\json-lib-2.2.2-jdk15.jar;"/>
+    <property name="java.class.path" value="C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\target\test-classes;C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\target\classes;C:\Users\formation\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\formation\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Installation\SmartBear\SoapUI-5.4.0\bin\soapui-5.4.0.jar;C:\Users\formation\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\xbean-fixed-2.4.0.jar;C:\Users\formation\.m2\repository\net\sf\squirrel-sql\thirdparty-non-maven\com-fifesoft-rsyntaxtextarea\1.0.0\com-fifesoft-rsyntaxtextarea-1.0.0.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\commons-cli-1.2.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\commons-io-2.4.jar;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpclient\4.1.1\httpclient-4.1.1.jar;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpcore\4.1\httpcore-4.1.jar;C:\Users\formation\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\formation\.m2\repository\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\proxy-vole-20131209.jar;C:\Users\formation\.m2\repository\xalan\xalan\2.7.0\xalan-2.7.0.jar;C:\Users\formation\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\formation\.m2\repository\org\reflections\reflections\0.9.9-RC1\reflections-0.9.9-RC1.jar;C:\Users\formation\.m2\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;C:\Users\formation\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\formation\.m2\repository\org\javassist\javassist\3.16.1-GA\javassist-3.16.1-GA.jar;C:\Users\formation\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\formation\.m2\repository\org\codehaus\groovy\groovy-all\2.4.4\groovy-all-2.4.4.jar;C:\Users\formation\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\formation\.m2\repository\org\bouncycastle\bcprov-jdk16\1.45\bcprov-jdk16-1.45.jar;C:\Users\formation\.m2\repository\wsdl4j\wsdl4j\1.6.2\wsdl4j-1.6.2.jar;C:\Users\formation\.m2\repository\com\jgoodies\jgoodies-forms\1.6.0\jgoodies-forms-1.6.0.jar;C:\Users\formation\.m2\repository\com\jgoodies\jgoodies-common\1.4.0\jgoodies-common-1.4.0.jar;C:\Users\formation\.m2\repository\xmlunit\xmlunit\1.2\xmlunit-1.2.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-core\4.7.0\flex-messaging-core-4.7.0.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-common\4.7.0\flex-messaging-common-4.7.0.jar;C:\Installation\Java\jdk1.8.0_152\lib\tools.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\commons-collections-3.2.2.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\jms-1.1.jar;C:\Users\formation\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar;C:\Users\formation\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\formation\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\formation\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\formation\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\formation\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.14.1\log4j-slf4j-impl-2.14.1.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\analytics-core-5.4.0.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\out-app-analytics-provider-5.4.0.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\json-lib-2.2.2-jdk15.jar;C:\Users\formation\.m2\repository\org\apache\xmlbeans\xmlbeans-xpath\2.4.0\xmlbeans-xpath-2.4.0.jar;C:\Users\formation\.m2\repository\org\apache\xmlbeans\xmlbeans\2.4.0\xmlbeans-2.4.0.jar;C:\Users\formation\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\formation\.m2\repository\net\sf\saxon\saxon-xpath\8.7\saxon-xpath-8.7.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\saxon-9.1.0.8j.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\saxon-dom-9.1.0.8j.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -19,8 +19,8 @@
     <property name="user.country" value="FR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Installation\Java\jre1.8.0_152\bin"/>
-    <property name="sun.java.command" value="C:\Users\formation\AppData\Local\Temp\surefire1556615818751251130\surefirebooter3011383695584223013.jar C:\Users\formation\AppData\Local\Temp\surefire1556615818751251130 2021-12-09T14-49-57_238-jvmRun1 surefire916169241732154724tmp surefire_06203285211050428072tmp"/>
-    <property name="surefire.test.class.path" value="C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\target\test-classes;C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\target\classes;C:\Users\formation\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\formation\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Installation\SmartBear\SoapUI-5.4.0\bin\soapui-5.4.0.jar;C:\Users\formation\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\xbean-fixed-2.4.0.jar;C:\Users\formation\.m2\repository\net\sf\squirrel-sql\thirdparty-non-maven\com-fifesoft-rsyntaxtextarea\1.0.0\com-fifesoft-rsyntaxtextarea-1.0.0.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\commons-cli-1.2.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\commons-io-2.4.jar;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpclient\4.1.1\httpclient-4.1.1.jar;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpcore\4.1\httpcore-4.1.jar;C:\Users\formation\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\formation\.m2\repository\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\proxy-vole-20131209.jar;C:\Users\formation\.m2\repository\xalan\xalan\2.7.0\xalan-2.7.0.jar;C:\Users\formation\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\formation\.m2\repository\org\reflections\reflections\0.9.9-RC1\reflections-0.9.9-RC1.jar;C:\Users\formation\.m2\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;C:\Users\formation\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\formation\.m2\repository\org\javassist\javassist\3.16.1-GA\javassist-3.16.1-GA.jar;C:\Users\formation\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\formation\.m2\repository\org\codehaus\groovy\groovy-all\2.4.4\groovy-all-2.4.4.jar;C:\Users\formation\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\formation\.m2\repository\org\bouncycastle\bcprov-jdk16\1.45\bcprov-jdk16-1.45.jar;C:\Users\formation\.m2\repository\wsdl4j\wsdl4j\1.6.2\wsdl4j-1.6.2.jar;C:\Users\formation\.m2\repository\com\jgoodies\jgoodies-forms\1.6.0\jgoodies-forms-1.6.0.jar;C:\Users\formation\.m2\repository\com\jgoodies\jgoodies-common\1.4.0\jgoodies-common-1.4.0.jar;C:\Users\formation\.m2\repository\xmlunit\xmlunit\1.2\xmlunit-1.2.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-core\4.7.0\flex-messaging-core-4.7.0.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-common\4.7.0\flex-messaging-common-4.7.0.jar;C:\Installation\Java\jdk1.8.0_152\lib\tools.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\commons-collections-3.2.2.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\jms-1.1.jar;C:\Users\formation\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar;C:\Users\formation\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\formation\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\formation\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\formation\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\formation\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.14.1\log4j-slf4j-impl-2.14.1.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\analytics-core-5.4.0.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\out-app-analytics-provider-5.4.0.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\json-lib-2.2.2-jdk15.jar;"/>
+    <property name="sun.java.command" value="C:\Users\formation\AppData\Local\Temp\surefire8460268979237801471\surefirebooter4477844169356461052.jar C:\Users\formation\AppData\Local\Temp\surefire8460268979237801471 2021-12-10T11-01-34_987-jvmRun1 surefire4887682835124977267tmp surefire_01721644229805459511tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\target\test-classes;C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\target\classes;C:\Users\formation\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\formation\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Installation\SmartBear\SoapUI-5.4.0\bin\soapui-5.4.0.jar;C:\Users\formation\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\xbean-fixed-2.4.0.jar;C:\Users\formation\.m2\repository\net\sf\squirrel-sql\thirdparty-non-maven\com-fifesoft-rsyntaxtextarea\1.0.0\com-fifesoft-rsyntaxtextarea-1.0.0.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\commons-cli-1.2.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\commons-io-2.4.jar;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpclient\4.1.1\httpclient-4.1.1.jar;C:\Users\formation\.m2\repository\org\apache\httpcomponents\httpcore\4.1\httpcore-4.1.jar;C:\Users\formation\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\formation\.m2\repository\commons-codec\commons-codec\1.4\commons-codec-1.4.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\proxy-vole-20131209.jar;C:\Users\formation\.m2\repository\xalan\xalan\2.7.0\xalan-2.7.0.jar;C:\Users\formation\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\formation\.m2\repository\org\reflections\reflections\0.9.9-RC1\reflections-0.9.9-RC1.jar;C:\Users\formation\.m2\repository\com\google\guava\guava\11.0.2\guava-11.0.2.jar;C:\Users\formation\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\formation\.m2\repository\org\javassist\javassist\3.16.1-GA\javassist-3.16.1-GA.jar;C:\Users\formation\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\formation\.m2\repository\org\codehaus\groovy\groovy-all\2.4.4\groovy-all-2.4.4.jar;C:\Users\formation\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\formation\.m2\repository\org\bouncycastle\bcprov-jdk16\1.45\bcprov-jdk16-1.45.jar;C:\Users\formation\.m2\repository\wsdl4j\wsdl4j\1.6.2\wsdl4j-1.6.2.jar;C:\Users\formation\.m2\repository\com\jgoodies\jgoodies-forms\1.6.0\jgoodies-forms-1.6.0.jar;C:\Users\formation\.m2\repository\com\jgoodies\jgoodies-common\1.4.0\jgoodies-common-1.4.0.jar;C:\Users\formation\.m2\repository\xmlunit\xmlunit\1.2\xmlunit-1.2.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-core\4.7.0\flex-messaging-core-4.7.0.jar;C:\Users\formation\.m2\repository\org\apache\flex\blazeds\flex-messaging-common\4.7.0\flex-messaging-common-4.7.0.jar;C:\Installation\Java\jdk1.8.0_152\lib\tools.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\commons-collections-3.2.2.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\jms-1.1.jar;C:\Users\formation\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar;C:\Users\formation\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\formation\.m2\repository\commons-beanutils\commons-beanutils\1.7.0\commons-beanutils-1.7.0.jar;C:\Users\formation\.m2\repository\org\apache\logging\log4j\log4j-api\2.14.1\log4j-api-2.14.1.jar;C:\Users\formation\.m2\repository\org\apache\logging\log4j\log4j-core\2.14.1\log4j-core-2.14.1.jar;C:\Users\formation\.m2\repository\org\apache\logging\log4j\log4j-slf4j-impl\2.14.1\log4j-slf4j-impl-2.14.1.jar;C:\Users\formation\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\analytics-core-5.4.0.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\out-app-analytics-provider-5.4.0.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\json-lib-2.2.2-jdk15.jar;C:\Users\formation\.m2\repository\org\apache\xmlbeans\xmlbeans-xpath\2.4.0\xmlbeans-xpath-2.4.0.jar;C:\Users\formation\.m2\repository\org\apache\xmlbeans\xmlbeans\2.4.0\xmlbeans-2.4.0.jar;C:\Users\formation\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\formation\.m2\repository\net\sf\saxon\saxon-xpath\8.7\saxon-xpath-8.7.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\saxon-9.1.0.8j.jar;C:\Installation\SmartBear\SoapUI-5.4.0\lib\saxon-dom-9.1.0.8j.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\formation"/>
     <property name="user.language" value="fr"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\formation\AppData\Local\Temp\surefire1556615818751251130\surefirebooter3011383695584223013.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\formation\AppData\Local\Temp\surefire8460268979237801471\surefirebooter4477844169356461052.jar"/>
     <property name="sun.boot.class.path" value="C:\Installation\Java\jre1.8.0_152\lib\resources.jar;C:\Installation\Java\jre1.8.0_152\lib\rt.jar;C:\Installation\Java\jre1.8.0_152\lib\sunrsasign.jar;C:\Installation\Java\jre1.8.0_152\lib\jsse.jar;C:\Installation\Java\jre1.8.0_152\lib\jce.jar;C:\Installation\Java\jre1.8.0_152\lib\charsets.jar;C:\Installation\Java\jre1.8.0_152\lib\jfr.jar;C:\Installation\Java\jre1.8.0_152\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,89 +61,89 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="test1" classname="eql.SoapProject.LibreplanTest" time="2.726">
+  <testcase name="test1" classname="eql.SoapProject.LibreplanTest" time="3.171">
     <system-out><![CDATA[SoapUI 5.4.0 TestCase Runner
-14:49:58,680 WARN  [SoapUI] Missing folder [C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\ext] for external libraries
-14:49:58,839 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\formation\soapui-settings.xml]
-14:49:59,989 INFO  [PluginManager] 0 plugins loaded in 1 ms
-14:49:59,989 INFO  [DefaultSoapUICore] All plugins loaded
-14:50:00,852 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/Projet_SOAP_Workspace/SoapProject/src/test/resources/UPDATED_LIBREPLAN-RESOURCES-TEST-soapui-project.xml]
-14:50:00,855 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [LIBREPLAN_RESOURCES_TEST]
-14:50:00,883 INFO  [SoapUITestCaseRunner] Running Project [LIBREPLAN_RESOURCES_TEST], runType = SEQUENTIAL
-14:50:00,894 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [POST Worker]
-14:50:00,898 INFO  [SoapUITestCaseRunner] running step [POST WORKER]
-14:50:00,990 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:00,991 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /libreplan/ws/rest/resources HTTP/1.1
-14:50:01,040 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
-14:50:01,042 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
-14:50:01,060 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-14:50:01,060 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
-14:50:01,060 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
-14:50:01,061 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [POST Worker], time taken: 97ms, status: FINISHED
-14:50:01,062 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [POST Machine]
-14:50:01,062 INFO  [SoapUITestCaseRunner] running step [POST MACHINE]
-14:50:01,063 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
-14:50:01,078 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:01,078 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /libreplan/ws/rest/resources HTTP/1.1
-14:50:01,107 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
-14:50:01,108 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
-14:50:01,110 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-14:50:01,110 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
-14:50:01,110 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
-14:50:01,110 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [POST Machine], time taken: 44ms, status: FINISHED
-14:50:01,111 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [POST Worker (Update)]
-14:50:01,111 INFO  [SoapUITestCaseRunner] running step [POST EXISTING WORKER (UPDATE)]
-14:50:01,112 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
-14:50:01,126 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:01,126 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /libreplan/ws/rest/resources HTTP/1.1
-14:50:01,153 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
-14:50:01,153 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
-14:50:01,155 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-14:50:01,155 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
-14:50:01,155 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
-14:50:01,156 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [POST Worker (Update)], time taken: 41ms, status: FINISHED
-14:50:01,156 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GET All Resources]
-14:50:01,156 INFO  [SoapUITestCaseRunner] running step [GET ALL RESOURCES]
-14:50:01,162 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
-14:50:01,174 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:01,174 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/resources/ HTTP/1.1
-14:50:01,191 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
-14:50:01,191 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
-14:50:01,194 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-14:50:01,194 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
-14:50:01,194 INFO  [SoapUITestCaseRunner] Assertion [Contains Machine] has status VALID
-14:50:01,194 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GET All Resources], time taken: 29ms, status: FINISHED
-14:50:01,195 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GET Worker]
-14:50:01,195 INFO  [SoapUITestCaseRunner] running step [GET A WORKER]
-14:50:01,196 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
-14:50:01,206 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:01,206 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/resources/WORKER0050 HTTP/1.1
-14:50:01,218 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
-14:50:01,218 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
-14:50:01,220 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-14:50:01,220 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
-14:50:01,220 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GET Worker], time taken: 22ms, status: FINISHED
-14:50:01,221 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GET Non-Existing Machine (NP)]
-14:50:01,221 INFO  [SoapUITestCaseRunner] running step [GET A NON-EXISTING MACHINE (NP)]
-14:50:01,222 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
-14:50:01,238 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:01,238 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/resources/VOID_MACHINE HTTP/1.1
-14:50:01,247 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 404 Introuvable
-14:50:01,247 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
-14:50:01,248 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-14:50:01,248 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GET Non-Existing Machine (NP)], time taken: 25ms, status: FINISHED
-14:50:01,248 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [DELETE Worker (NP)]
-14:50:01,248 INFO  [SoapUITestCaseRunner] running step [DELETE A WORKER (NP)]
-14:50:01,250 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
-14:50:01,254 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:01,254 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: DELETE /libreplan/ws/rest/resources/WORKER0050 HTTP/1.1
-14:50:01,262 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 500 Erreur Interne de Servlet
-14:50:01,263 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Connection shut down
-14:50:01,266 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-14:50:01,266 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
-14:50:01,266 INFO  [SoapUITestCaseRunner] Assertion [Contains - Error Tag] has status VALID
-14:50:01,267 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [DELETE Worker (NP)], time taken: 12ms, status: FINISHED
-14:50:01,267 INFO  [SoapUITestCaseRunner] Project [LIBREPLAN_RESOURCES_TEST] finished with status [FINISHED] in 381ms
+11:01:36,648 WARN  [SoapUI] Missing folder [C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\ext] for external libraries
+11:01:36,807 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\formation\soapui-settings.xml]
+11:01:38,014 INFO  [PluginManager] 0 plugins loaded in 1 ms
+11:01:38,014 INFO  [DefaultSoapUICore] All plugins loaded
+11:01:38,923 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/Projet_SOAP_Workspace/SoapProject/src/test/resources/UPDATED_LIBREPLAN-RESOURCES-TEST-soapui-project.xml]
+11:01:38,926 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [LIBREPLAN_RESOURCES_TEST]
+11:01:38,927 INFO  [SoapUITestCaseRunner] Running Project [LIBREPLAN_RESOURCES_TEST], runType = SEQUENTIAL
+11:01:38,939 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [POST Worker]
+11:01:38,944 INFO  [SoapUITestCaseRunner] running step [POST WORKER]
+11:01:39,056 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:39,056 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /libreplan/ws/rest/resources HTTP/1.1
+11:01:39,439 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:01:39,441 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:01:39,457 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+11:01:39,457 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
+11:01:39,457 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+11:01:39,458 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [POST Worker], time taken: 435ms, status: FINISHED
+11:01:39,459 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [POST Machine]
+11:01:39,459 INFO  [SoapUITestCaseRunner] running step [POST MACHINE]
+11:01:39,460 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:01:39,467 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:39,468 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /libreplan/ws/rest/resources HTTP/1.1
+11:01:39,535 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:01:39,535 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:01:39,537 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+11:01:39,538 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+11:01:39,538 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
+11:01:39,538 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [POST Machine], time taken: 74ms, status: FINISHED
+11:01:39,538 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [POST Worker (Update)]
+11:01:39,539 INFO  [SoapUITestCaseRunner] running step [POST EXISTING WORKER (UPDATE)]
+11:01:39,540 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:01:39,547 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:39,547 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /libreplan/ws/rest/resources HTTP/1.1
+11:01:39,578 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:01:39,578 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:01:39,580 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+11:01:39,580 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status VALID
+11:01:39,580 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+11:01:39,580 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [POST Worker (Update)], time taken: 38ms, status: FINISHED
+11:01:39,581 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GET All Resources]
+11:01:39,581 INFO  [SoapUITestCaseRunner] running step [GET ALL RESOURCES]
+11:01:39,587 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:01:39,593 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:39,594 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/resources/ HTTP/1.1
+11:01:39,628 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:01:39,628 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:01:39,631 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+11:01:39,631 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+11:01:39,631 INFO  [SoapUITestCaseRunner] Assertion [Contains Machine] has status VALID
+11:01:39,631 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GET All Resources], time taken: 41ms, status: FINISHED
+11:01:39,632 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GET Worker]
+11:01:39,632 INFO  [SoapUITestCaseRunner] running step [GET A WORKER]
+11:01:39,633 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:01:39,641 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:39,641 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/resources/WORKER0050 HTTP/1.1
+11:01:39,664 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:01:39,664 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:01:39,666 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+11:01:39,666 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+11:01:39,666 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GET Worker], time taken: 31ms, status: FINISHED
+11:01:39,667 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [GET Non-Existing Machine (NP)]
+11:01:39,667 INFO  [SoapUITestCaseRunner] running step [GET A NON-EXISTING MACHINE (NP)]
+11:01:39,668 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:01:39,673 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:39,673 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/resources/VOID_MACHINE HTTP/1.1
+11:01:39,683 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 404 Introuvable
+11:01:39,683 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:01:39,684 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+11:01:39,684 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [GET Non-Existing Machine (NP)], time taken: 14ms, status: FINISHED
+11:01:39,684 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [DELETE Worker (NP)]
+11:01:39,685 INFO  [SoapUITestCaseRunner] running step [DELETE A WORKER (NP)]
+11:01:39,686 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:01:39,689 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:39,689 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: DELETE /libreplan/ws/rest/resources/WORKER0050 HTTP/1.1
+11:01:39,703 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 500 Erreur Interne de Servlet
+11:01:39,704 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Connection shut down
+11:01:39,708 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+11:01:39,708 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+11:01:39,708 INFO  [SoapUITestCaseRunner] Assertion [Contains - Error Tag] has status VALID
+11:01:39,708 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [DELETE Worker (NP)], time taken: 18ms, status: FINISHED
+11:01:39,709 INFO  [SoapUITestCaseRunner] Project [LIBREPLAN_RESOURCES_TEST] finished with status [FINISHED] in 778ms
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Class path contains multiple SLF4J bindings.
 SLF4J: Found binding in [jar:file:/C:/Users/formation/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.14.1/log4j-slf4j-impl-2.14.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
@@ -152,58 +152,58 @@ SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
 SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
 ]]></system-err>
   </testcase>
-  <testcase name="test2" classname="eql.SoapProject.LibreplanTest" time="0.328">
+  <testcase name="test2" classname="eql.SoapProject.LibreplanTest" time="0.432">
     <system-out><![CDATA[SoapUI 5.4.0 TestCase Runner
-14:50:01,284 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/Projet_SOAP_Workspace/SoapProject/src/test/resources/UPDATED_Libreplan-Projet-soapui-project.xml]
-14:50:01,284 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Libreplan Global]
-14:50:01,284 INFO  [SoapUITestCaseRunner] Running Project [Libreplan Global], runType = SEQUENTIAL
-14:50:01,285 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase Project]
-14:50:01,286 INFO  [SoapUITestCaseRunner] running step [PostProject - Request 1]
-14:50:01,288 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:01,288 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /libreplan/ws/rest/orderelements/ HTTP/1.1
-14:50:01,327 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
-14:50:01,327 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
-14:50:01,329 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
-14:50:01,329 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status UNKNOWN
-14:50:01,330 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-14:50:01,330 INFO  [SoapUITestCaseRunner] running step [PostProject NP - Request 1]
-14:50:01,330 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
-14:50:01,347 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:01,347 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /libreplan/ws/rest/orderelements/ HTTP/1.1
-14:50:01,371 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
-14:50:01,371 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
-14:50:01,373 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status UNKNOWN
-14:50:01,373 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-14:50:01,373 INFO  [SoapUITestCaseRunner] Assertion [Contains 1] has status VALID
-14:50:01,373 INFO  [SoapUITestCaseRunner] running step [GetAllProject - Request 1]
-14:50:01,374 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
-14:50:01,379 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:01,379 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/orderelements/ HTTP/1.1
-14:50:01,401 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
-14:50:01,401 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
-14:50:01,402 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
-14:50:01,402 INFO  [SoapUITestCaseRunner] running step [GetAProject - Request 1]
-14:50:01,403 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
-14:50:01,411 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:01,411 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/orderelements/ORDER0009 HTTP/1.1
-14:50:01,426 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
-14:50:01,426 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
-14:50:01,427 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
-14:50:01,428 INFO  [SoapUITestCaseRunner] running step [DeleteProject - Request 1]
-14:50:01,429 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
-14:50:01,443 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:01,443 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: DELETE /libreplan/ws/rest/orderelements/ORDER0009 HTTP/1.1
-14:50:01,475 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
-14:50:01,475 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
-14:50:01,476 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
-14:50:01,476 INFO  [SoapUITestCaseRunner] running step [Copy of GetAllProject - Request 1]
-14:50:01,476 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
-14:50:01,490 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:01,490 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/orderelements/ HTTP/1.1
-14:50:01,500 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
-14:50:01,500 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
-14:50:01,502 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status FAILED
-14:50:01,502 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Missing token [<order calendar-name="Default" dependencies-constraints-have-priority="false" init-date="2021-12-08" name="Mon gros projet" code="ORDER0009">
+11:01:39,728 INFO  [WsdlProject] Loaded project from [file:/C:/Users/formation/Documents/Projet_SOAP_Workspace/SoapProject/src/test/resources/UPDATED_Libreplan-Projet-soapui-project.xml]
+11:01:39,729 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [Libreplan Global]
+11:01:39,729 INFO  [SoapUITestCaseRunner] Running Project [Libreplan Global], runType = SEQUENTIAL
+11:01:39,730 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase Project]
+11:01:39,730 INFO  [SoapUITestCaseRunner] running step [PostProject - Request 1]
+11:01:39,732 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:39,732 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /libreplan/ws/rest/orderelements/ HTTP/1.1
+11:01:39,812 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:01:39,813 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:01:39,814 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+11:01:39,814 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status UNKNOWN
+11:01:39,815 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+11:01:39,815 INFO  [SoapUITestCaseRunner] running step [PostProject NP - Request 1]
+11:01:39,816 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:01:39,829 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:39,829 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: POST /libreplan/ws/rest/orderelements/ HTTP/1.1
+11:01:39,885 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:01:39,885 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:01:39,886 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status UNKNOWN
+11:01:39,886 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+11:01:39,886 INFO  [SoapUITestCaseRunner] Assertion [Contains 1] has status VALID
+11:01:39,886 INFO  [SoapUITestCaseRunner] running step [GetAllProject - Request 1]
+11:01:39,887 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:01:39,893 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:39,893 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/orderelements/ HTTP/1.1
+11:01:39,917 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:01:39,917 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:01:39,919 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+11:01:39,919 INFO  [SoapUITestCaseRunner] running step [GetAProject - Request 1]
+11:01:39,920 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:01:39,924 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:39,924 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/orderelements/ORDER0009 HTTP/1.1
+11:01:39,944 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:01:39,945 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:01:39,946 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+11:01:39,946 INFO  [SoapUITestCaseRunner] running step [DeleteProject - Request 1]
+11:01:39,947 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:01:39,955 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:39,955 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: DELETE /libreplan/ws/rest/orderelements/ORDER0009 HTTP/1.1
+11:01:39,994 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:01:39,995 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:01:39,995 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+11:01:39,995 INFO  [SoapUITestCaseRunner] running step [Copy of GetAllProject - Request 1]
+11:01:39,996 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:01:40,002 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:40,002 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/orderelements/ HTTP/1.1
+11:01:40,013 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:01:40,014 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:01:40,015 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status FAILED
+11:01:40,016 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Missing token [<order calendar-name="Default" dependencies-constraints-have-priority="false" init-date="2021-12-08" name="Mon gros projet" code="ORDER0009">
       <labels/>
       <material-assignments/>
       <advance-measurements/>
@@ -211,45 +211,45 @@ SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
       <children/>
    </order>
 ] in Response
-14:50:01,502 ERROR [SoapUITestCaseRunner] Copy of GetAllProject - Request 1 failed, exporting to [C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\TestSuite_1-TestCase_Project-Copy_of_GetAllProject__Request_1-0-FAILED.txt]
-14:50:01,505 INFO  [SoapUITestCaseRunner] running step [GetAProject NP - Request 1]
-14:50:01,505 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
-14:50:01,522 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:01,522 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/orderelements/ORDER0009 HTTP/1.1
-14:50:01,530 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 404 Introuvable
-14:50:01,530 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
-14:50:01,530 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status UNKNOWN
-14:50:01,531 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status FAILED
-14:50:01,531 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> null/empty response
-14:50:01,531 ERROR [SoapUITestCaseRunner] GetAProject NP - Request 1 failed, exporting to [C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\TestSuite_1-TestCase_Project-GetAProject_NP__Request_1-0-FAILED.txt]
-14:50:01,531 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase Project], time taken: 222ms, status: FAILED
-14:50:01,532 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase Calendar]
-14:50:01,533 INFO  [SoapUITestCaseRunner] running step [Get all calendars (2)]
-14:50:01,533 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
-14:50:01,538 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:01,538 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/calendars/ HTTP/1.1
-14:50:01,552 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
-14:50:01,552 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
-14:50:01,554 INFO  [SoapUITestCaseRunner] Assertion [Contains calendrier 2] has status VALID
-14:50:01,554 INFO  [SoapUITestCaseRunner] Assertion [Contains calendrier 1] has status VALID
-14:50:01,554 INFO  [SoapUITestCaseRunner] running step [Calendar non passant]
-14:50:01,555 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
-14:50:01,569 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:01,569 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/calendars/000000 HTTP/1.1
-14:50:01,577 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 404 Introuvable
-14:50:01,577 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
-14:50:01,578 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status FAILED
-14:50:01,578 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> null/empty response
-14:50:01,578 ERROR [SoapUITestCaseRunner] Calendar non passant failed, exporting to [C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\TestSuite_2-TestCase_Calendar-Calendar_non_passant-0-FAILED.txt]
-14:50:01,578 INFO  [SoapUITestCaseRunner] running step [Get 1 Calendars]
-14:50:01,579 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
-14:50:01,585 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
-14:50:01,585 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/calendars/CALENDAR0001 HTTP/1.1
-14:50:01,593 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
-14:50:01,593 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
-14:50:01,595 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
-14:50:01,596 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase Calendar], time taken: 54ms, status: FAILED
-14:50:01,596 INFO  [SoapUITestCaseRunner] Project [Libreplan Global] finished with status [FAILED] in 312ms
+11:01:40,016 ERROR [SoapUITestCaseRunner] Copy of GetAllProject - Request 1 failed, exporting to [C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\TestSuite_1-TestCase_Project-Copy_of_GetAllProject__Request_1-0-FAILED.txt]
+11:01:40,020 INFO  [SoapUITestCaseRunner] running step [GetAProject NP - Request 1]
+11:01:40,021 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:01:40,034 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:40,034 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/orderelements/ORDER0009 HTTP/1.1
+11:01:40,050 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 404 Introuvable
+11:01:40,050 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:01:40,052 INFO  [SoapUITestCaseRunner] Assertion [Not Contains] has status UNKNOWN
+11:01:40,052 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status FAILED
+11:01:40,052 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> null/empty response
+11:01:40,052 ERROR [SoapUITestCaseRunner] GetAProject NP - Request 1 failed, exporting to [C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\TestSuite_1-TestCase_Project-GetAProject_NP__Request_1-0-FAILED.txt]
+11:01:40,053 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase Project], time taken: 299ms, status: FAILED
+11:01:40,054 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase Calendar]
+11:01:40,055 INFO  [SoapUITestCaseRunner] running step [Get all calendars (2)]
+11:01:40,055 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:01:40,065 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:40,065 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/calendars/ HTTP/1.1
+11:01:40,089 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:01:40,090 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:01:40,092 INFO  [SoapUITestCaseRunner] Assertion [Contains calendrier 2] has status VALID
+11:01:40,092 INFO  [SoapUITestCaseRunner] Assertion [Contains calendrier 1] has status VALID
+11:01:40,092 INFO  [SoapUITestCaseRunner] running step [Calendar non passant]
+11:01:40,093 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:01:40,095 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:40,095 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/calendars/000000 HTTP/1.1
+11:01:40,108 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 404 Introuvable
+11:01:40,108 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:01:40,109 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status FAILED
+11:01:40,109 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> null/empty response
+11:01:40,109 ERROR [SoapUITestCaseRunner] Calendar non passant failed, exporting to [C:\Users\formation\Documents\Projet_SOAP_Workspace\SoapProject\TestSuite_2-TestCase_Calendar-Calendar_non_passant-0-FAILED.txt]
+11:01:40,110 INFO  [SoapUITestCaseRunner] running step [Get 1 Calendars]
+11:01:40,111 DEBUG [HttpClientSupport$SoapUIHttpClient] Stale connection check
+11:01:40,126 DEBUG [HttpClientSupport$SoapUIHttpClient] Attempt 1 to execute request
+11:01:40,126 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Sending request: GET /libreplan/ws/rest/calendars/CALENDAR0001 HTTP/1.1
+11:01:40,141 DEBUG [SoapUIMultiThreadedHttpConnectionManager$SoapUIDefaultClientConnection] Receiving response: HTTP/1.1 200 OK
+11:01:40,142 DEBUG [HttpClientSupport$SoapUIHttpClient] Connection can be kept alive indefinitely
+11:01:40,143 INFO  [SoapUITestCaseRunner] Assertion [Contains] has status VALID
+11:01:40,143 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase Calendar], time taken: 80ms, status: FAILED
+11:01:40,144 INFO  [SoapUITestCaseRunner] Project [Libreplan Global] finished with status [FAILED] in 415ms
 ]]></system-out>
     <system-err><![CDATA[java.lang.Exception: Contains in [Copy of GetAllProject - Request 1] failed;
 [Missing token [<order calendar-name="Default" dependencies-constraints-have-priority="false" init-date="2021-12-08" name="Mon gros projet" code="ORDER0009">
@@ -261,9 +261,9 @@ SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
    </order>
 ] in Response]
 Status: FAILED
-Time Taken: 23
+Time Taken: 17
 Size: 105
-Timestamp: Thu Dec 09 14:50:01 CET 2021
+Timestamp: Fri Dec 10 11:01:39 CET 2021
 TestStep: Copy of GetAllProject - Request 1
 
 ----------------- Messages ------------------------------
@@ -305,16 +305,16 @@ User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
 Server: [Apache-Coyote/1.1]
 #status#: [HTTP/1.1 200 OK]
 Content-Length: [105]
-Date: [Thu, 09 Dec 2021 13:50:01 GMT]
+Date: [Fri, 10 Dec 2021 10:01:40 GMT]
 Content-Type: [application/xml]
 
 <order-list xmlns="http://rest.ws.libreplan.org"/>
 Contains in [GetAProject NP - Request 1] failed;
 [null/empty response]
 Status: FAILED
-Time Taken: 24
+Time Taken: 29
 Size: 0
-Timestamp: Thu Dec 09 14:50:01 CET 2021
+Timestamp: Fri Dec 10 11:01:40 CET 2021
 TestStep: GetAProject NP - Request 1
 
 ----------------- Messages ------------------------------
@@ -349,14 +349,14 @@ User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
 Server: [Apache-Coyote/1.1]
 #status#: [HTTP/1.1 404 Introuvable]
 Content-Length: [0]
-Date: [Thu, 09 Dec 2021 13:50:01 GMT]
+Date: [Fri, 10 Dec 2021 10:01:40 GMT]
 Content-Type: [text/xml]
 Contains in [Calendar non passant] failed;
 [null/empty response]
 Status: FAILED
-Time Taken: 22
+Time Taken: 14
 Size: 0
-Timestamp: Thu Dec 09 14:50:01 CET 2021
+Timestamp: Fri Dec 10 11:01:40 CET 2021
 TestStep: Calendar non passant
 
 ----------------- Messages ------------------------------
@@ -391,7 +391,7 @@ User-Agent: Apache-HttpClient/4.1.1 (java 1.5)
 Server: [Apache-Coyote/1.1]
 #status#: [HTTP/1.1 404 Introuvable]
 Content-Length: [0]
-Date: [Thu, 09 Dec 2021 13:50:01 GMT]
+Date: [Fri, 10 Dec 2021 10:01:40 GMT]
 Content-Type: [text/xml]
 
 	at com.eviware.soapui.tools.SoapUITestCaseRunner.throwFailureException(SoapUITestCaseRunner.java:519)

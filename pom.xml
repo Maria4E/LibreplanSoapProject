@@ -233,5 +233,29 @@
 			<scope>system</scope>
 			<systemPath>${soapPath}/lib/json-lib-2.2.2-jdk15.jar</systemPath>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.xmlbeans</groupId>
+			<artifactId>xmlbeans-xpath</artifactId>
+			<version>2.4.0</version>
+		</dependency>
+		<dependency>
+		    <groupId>net.sf.saxon</groupId>
+		    <artifactId>saxon-xpath</artifactId>
+		    <version>8.7</version>
+		</dependency>
+		<dependency>
+		    <groupId>net.sf.saxon</groupId>
+		    <artifactId>saxon</artifactId>
+		    <version>9.1.0.8</version>
+		    <scope>system</scope>
+		    <systemPath>${soapPath}/lib/saxon-9.1.0.8j.jar</systemPath>
+		</dependency>
+		<dependency>
+		    <groupId>net.sf.saxon</groupId>
+		    <artifactId>saxon-dom</artifactId>
+		    <version>9.1.0.8</version>
+		    <scope>system</scope>
+		    <systemPath>${soapPath}/lib/saxon-dom-9.1.0.8j.jar</systemPath>
+		</dependency>
 	</dependencies>
 </project>
